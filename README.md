@@ -1,7 +1,7 @@
 
 # Zomato SQL Project: Data Analysis for a Food Delivery Company
 Welcome to the GitHub repository for the Zomato SQL Project. This project demonstrates my SQL problem-solving capabilities through an in-depth analysis of Zomato, a leading food delivery service in India. Within this repository, you will find a comprehensive breakdown of the project structure, meticulously crafted SQL queries, and the key insights derived from the data analysis.
-<br> <img src="https://github.com/prashanthkumarjoshi/SQL_PROJECT_3/blob/main/images/zomato_Review-1.jpg">
+<br> <img src="https://github.com/vatsalapushkar10/Zomato-SQL-Project-Data-Analysis-for-a-Food-Delivery-Company/blob/main/zomato_Review-1.jpg">
 
 ## Project Overview
 This project showcases my proficiency in addressing intricate SQL challenges within a business context. The primary objective was to analyze Zomato's customer and order data to uncover valuable insights, resolve business issues, and provide actionable recommendations. The database encompasses detailed information about customers, restaurants, orders, and deliveries.
