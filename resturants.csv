@@ -1,0 +1,101 @@
+﻿resturant_id,resturant_name,city,opening_hours
+1,Saffron,Mumbai,9:00 AM - 10:00 PM
+2,Tandoori Palace,Delhi,10:00 AM - 11:00 PM
+3,Spice Garden,Bangalore,8:30 AM - 9:30 PM
+4,Curry House,Hyderabad,11:00 AM - 10:00 PM
+5,Bollywood Bites,Ahmedabad,9:00 AM - 9:00 PM
+6,Masala Grill,Chennai,8:00 AM - 10:00 PM
+7,Royal Indian,Kolkata,10:00 AM - 11:00 PM
+8,Garam Masala,Pune,9:30 AM - 10:30 PM
+9,Chakra,Jaipur,8:00 AM - 8:00 PM
+10,Nawaab,Surat,11:00 AM - 12:00 AM
+11,Mumbai Masala,Mumbai,9:00 AM - 9:00 PM
+12,Sindhi Rasoi,Delhi,10:00 AM - 10:00 PM
+13,Punjab Palace,Bangalore,9:00 AM - 10:00 PM
+14,Bengal Bistro,Hyderabad,9:00 AM - 11:00 PM
+15,Southern Spice,Ahmedabad,10:00 AM - 10:00 PM
+16,Delhi Darbar,Chennai,8:00 AM - 11:00 PM
+17,Kerala Kitchen,Kolkata,8:30 AM - 9:00 PM
+18,Mughlai Mahal,Pune,9:00 AM - 9:00 PM
+19,Rajasthan Royale,Jaipur,10:00 AM - 11:00 PM
+20,Bombay Brasserie,Surat,8:00 AM - 8:00 PM
+21,Chettinad Cuisine,Mumbai,9:00 AM - 10:00 PM
+22,Agra Aroma,Delhi,10:00 AM - 9:00 PM
+23,Goan Gourmet,Bangalore,8:30 AM - 10:30 PM
+24,Kashmiri Kuisine,Hyderabad,9:00 AM - 9:00 PM
+25,Punjabi Pavilion,Ahmedabad,9:00 AM - 11:00 PM
+26,Taj Mahal,Chennai,8:00 AM - 10:00 PM
+27,Maharaja,Kolkata,10:00 AM - 10:00 PM
+28,Rajasthan Raj,Pune,9:00 AM - 10:00 PM
+29,Spice Route,Jaipur,8:30 AM - 9:30 PM
+30,Indian Essence,Surat,10:00 AM - 10:00 PM
+31,Nirula's,Mumbai,9:00 AM - 9:00 PM
+32,Moti Mahal Delux,Delhi,8:00 AM - 11:00 PM
+33,Kailash Parbat,Bangalore,8:30 AM - 9:00 PM
+34,Haldiram's,Hyderabad,9:00 AM - 10:00 PM
+35,Saravana Bhavan,Ahmedabad,10:00 AM - 10:00 PM
+36,Annapurna,Chennai,8:00 AM - 8:00 PM
+37,Udupi Palace,Kolkata,9:00 AM - 10:00 PM
+38,Momo Point,Pune,10:00 AM - 9:00 PM
+39,Swagath,Jaipur,8:30 AM - 10:30 PM
+40,Punjabi Tadka,Surat,9:00 AM - 9:00 PM
+41,Bikanervala,Mumbai,9:00 AM - 11:00 PM
+42,Chawla's,Delhi,8:00 AM - 10:00 PM
+43,Pindi Pavilion,Bangalore,9:00 AM - 10:00 PM
+44,Peshawar,Hyderabad,10:00 AM - 10:00 PM
+45,Nandini,Ahmedabad,8:30 AM - 9:30 PM
+46,Sagar Ratna,Chennai,9:00 AM - 10:00 PM
+47,Sree Annapoorna,Kolkata,9:00 AM - 9:00 PM
+48,Bhojana,Pune,8:00 AM - 8:00 PM
+49,Sree Krishna,Jaipur,10:00 AM - 10:00 PM
+50,Khyber Pass,Surat,9:00 AM - 10:00 PM
+51,KFC India,Mumbai,10:00 AM - 11:00 PM
+52,Cafe Coffee Day,Delhi,8:00 AM - 11:00 PM
+53,Barista,Bangalore,9:00 AM - 10:00 PM
+54,Costa Coffee,Hyderabad,10:00 AM - 10:00 PM
+55,Starbucks India,Ahmedabad,8:00 AM - 9:00 PM
+56,Chaayos,Chennai,9:30 AM - 10:30 PM
+57,Theobroma,Kolkata,9:00 AM - 9:00 PM
+58,Smoke House Deli,Pune,8:00 AM - 8:00 PM
+59,Olive Bar & Kitchen,Jaipur,10:00 AM - 10:00 PM
+60,The Yellow Chilli,Surat,9:00 AM - 10:00 PM
+61,Indigo Deli,Mumbai,8:00 AM - 11:00 PM
+62,The Bombay Canteen,Delhi,9:00 AM - 9:00 PM
+63,Hakkasan,Bangalore,10:00 AM - 9:00 PM
+64,Wasabi,Hyderabad,8:30 AM - 10:30 PM
+65,The Table,Ahmedabad,9:00 AM - 10:00 PM
+66,Zorawar Kalra's,Chennai,10:00 AM - 10:00 PM
+67,Farzi Café,Kolkata,9:00 AM - 9:00 PM
+68,SodaBottleOpenerWala,Pune,8:00 AM - 10:00 PM
+69,Social,Jaipur,9:00 AM - 10:00 PM
+70,Mamagoto,Surat,10:00 AM - 10:00 PM
+71,Kylin,Mumbai,8:30 AM - 9:30 PM
+72,The Pantry,Delhi,9:00 AM - 10:00 PM
+73,The Good Wife,Bangalore,9:00 AM - 11:00 PM
+74,Guppy's,Hyderabad,10:00 AM - 10:00 PM
+75,The Corner House,Ahmedabad,8:00 AM - 8:00 PM
+76,The Park,Chennai,9:00 AM - 10:00 PM
+77,The Fern,Kolkata,10:00 AM - 9:00 PM
+78,The Bombay Brasserie,Pune,8:30 AM - 10:30 PM
+79,Pali Village Café,Jaipur,9:00 AM - 9:00 PM
+80,The Molecule,Surat,10:00 AM - 10:00 PM
+81,Tamarind Tree,Mumbai,9:00 AM - 9:00 PM
+82,The Spice Route,Delhi,8:30 AM - 9:30 PM
+83,Café Zoe,Bangalore,10:00 AM - 10:00 PM
+84,The Little Door,Hyderabad,9:00 AM - 10:00 PM
+85,The Bombay Vintage,Ahmedabad,8:00 AM - 10:00 PM
+86,The Sassy Spoon,Chennai,9:00 AM - 10:00 PM
+87,The Rosemary,Kolkata,10:00 AM - 10:00 PM
+88,The Bombay Darbar,Pune,8:00 AM - 11:00 PM
+89,The Good Wife,Jaipur,9:00 AM - 10:00 PM
+90,The Yum Yum Tree,Surat,10:00 AM - 9:00 PM
+91,The Tasting Room,Mumbai,8:30 AM - 9:30 PM
+92,The Table,Delhi,9:00 AM - 10:00 PM
+93,The Bombay Canteen,Bangalore,10:00 AM - 10:00 PM
+94,The Pantry,Hyderabad,9:00 AM - 9:00 PM
+95,The Corner House,Ahmedabad,10:00 AM - 10:00 PM
+96,The Park,Chennai,9:00 AM - 10:00 PM
+97,The Fern,Kolkata,9:00 AM - 11:00 PM
+98,The Bombay Brasserie,Pune,10:00 AM - 10:00 PM
+99,Pali Village Café,Jaipur,8:30 AM - 9:30 PM
+100,The Molecule,Surat,9:00 AM - 10:00 PM
