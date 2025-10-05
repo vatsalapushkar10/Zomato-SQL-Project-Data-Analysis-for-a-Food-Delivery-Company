@@ -1,15 +1,16 @@
 
 # Zomato SQL Project: Data Analysis for a Food Delivery Company
 Welcome to the GitHub repository for the Zomato SQL Project. This project demonstrates my SQL problem-solving capabilities through an in-depth analysis of Zomato, a leading food delivery service in India. Within this repository, you will find a comprehensive breakdown of the project structure, meticulously crafted SQL queries, and the key insights derived from the data analysis.
-<br> <img src=""C:\Users\vatsa\Downloads\zomato_Review-1.jpg"">
-## Project Overview
+<br> <img src="https://github.com/prashanthkumarjoshi/SQL_PROJECT_3/blob/main/images/zomato_Review-1.jpg">
 
-This project showcases my proficiency in addressing intricate SQL challenges within a business context. The primary objective was to analyze Zomato's customer and order data to uncover valuable insights, resolve business issues, and provide actionable recommendations. The database encompasses detailed information about customers, restaurants, orders, and deliveries.
+## Project Overview
+\This project showcases my proficiency in addressing intricate SQL challenges within a business context. The primary objective was to analyze Zomato's customer and order data to uncover valuable insights, resolve business issues, and provide actionable recommendations. The database encompasses detailed information about customers, restaurants, orders, and deliveries.
 
 ## Entity-Relationship Diagram (ERD)
 The dataset comprises five tables: `Customers`, `Resturants`, `riders`, `Orders`, and `Delivery`. Below is the structure of the ERD that represents the relationships among these tables.
+<img width="646" alt="image" src="https://github.com/prashanthkumarjoshi/SQL_PROJECT_3/blob/main/images/ERD.png">
 
-<img width="646" alt="image" src=""C:\Users\vatsa\Downloads\ERD.png"">
+
 
 
 ## Database Schema
@@ -87,12 +88,7 @@ Develop complex queries to analyze and retrieve specific data:
   WHERE
     RANK <= 5;
   ```
-</details>
-<details>
-<summary><strong>Expected Output</strong>: A list of top 5 most frequently orderd dishes by Customer Name called "Akhil Reddy".</summary>
-<br><strong>Query Output</strong>
- <br> <img src="https://github.com/prashanthkumarjoshi/SQL_PROJECT_3/blob/main/images/Q_1_output.png" height="200">
-</details>
+
     
 
 ## Q2. Write a query to find the Popular time slots.
@@ -141,12 +137,6 @@ ORDER BY
 	3 DESC;
 
   ```
-</details>
-<details>
-<summary><strong>Expected Output</strong>:Retrieving the count of orders placed within each 2-hour time slot throughout the day.</summary>
-<br><strong>Query Output</strong>
- <br> <img src="https://github.com/prashanthkumarjoshi/SQL_PROJECT_3/blob/main/images/Q_2_output.png">
-</details>
 
 ## Q3. Write a query to find Order value analysis.
 <details><summary>
@@ -171,12 +161,7 @@ HAVING
 	3 DESC;
 
   ```
-</details>
-<details>
-<summary><strong>Expected Output</strong>: Retrieving the Customername and Average order value(AOV).</summary>
-<br><strong>Query Output</strong>
- <br> <img src="https://github.com/prashanthkumarjoshi/SQL_PROJECT_3/blob/main/images/Q_3_output.png">
-</details>
+
 
 
 ## Q4. Write a query to find High value customer.
@@ -202,12 +187,7 @@ HAVING
 	3 DESC;
 
   ```
-</details>
-<details>
-<summary><strong>Expected Output</strong>: Retrieving the return customer_name and customer_id who have spend more than 100K based on highest value.</summary>
-<br><strong>Query Output</strong>
- <br> <img src="https://github.com/prashanthkumarjoshi/SQL_PROJECT_3/blob/main/images/Q_4_output.png">
-</details>
+
 
 ## Q5. Write a query to find Orders without Delivery.
 <details><summary>
@@ -237,12 +217,7 @@ ORDER BY
 	3 DESC;
 
   ```
-</details>
-<details>
-<summary><strong>Expected Output</strong>: Return each Resturant name, City and the number of the orders that were not delivered.</summary>
-<br><strong>Query Output</strong>
- <br> <img src="https://github.com/prashanthkumarjoshi/SQL_PROJECT_3/blob/main/images/Q_5_output.png">
-</details>
+
 
 ## Q6. Write a query for Revenue Ranking.
 <details><summary>
@@ -276,12 +251,7 @@ WHERE
 	RANK = 1;
 
   ```
-</details>
-<details>
-<summary><strong>Expected Output</strong>: Retrieving the top ranking resturants(rank=1) from each city base on the total revenue of the each resturant from the previous year </summary>
-<br><strong>Query Output</strong>
- <br> <img src="https://github.com/prashanthkumarjoshi/SQL_PROJECT_3/blob/main/images/Q_6_output.png">
-</details>
+
 
 ## Q7. Write a query for Most Popluar Dish by City
 <details><summary>
@@ -314,12 +284,7 @@ WHERE
 	RANK = 1;
 
   ```
-</details>
-<details>
-<summary><strong>Expected Output</strong>: Retrieving the top ranking(rank=1) popular Dish Name from each city and the number of orders placed from each city </summary>
-<br><strong>Query Output</strong>
- <br> <img src="https://github.com/prashanthkumarjoshi/SQL_PROJECT_3/blob/main/images/Q_7_output.png">
-</details>
+
 
 ## Q8. Write a query to generate Customer churn
 <details><summary>
@@ -345,12 +310,7 @@ group by
 	2;
 
   ```
-</details>
-<details>
-<summary><strong>Expected Output</strong>: Retrieving the Customer ID and Customer Name </summary>
-<br><strong>Query Output</strong>
- <br> <img src="https://github.com/prashanthkumarjoshi/SQL_PROJECT_3/blob/main/images/Q_8_output.png">
-</details>
+
 
 
 ## Q9. Write a query to generate genrate Cancellation Rate Comparrison Report
@@ -426,12 +386,7 @@ FROM
     JOIN current_year_data cn ON p.resturant_id = cn.resturant_id;
 
   ```
-</details>
-<details>
-<summary><strong>Expected Output</strong>: Retrieving the Resturant ID,cancellation ratio's of previous year and curent year.</summary>
-<br><strong>Query Output</strong>
- <br> <img src="https://github.com/prashanthkumarjoshi/SQL_PROJECT_3/blob/main/images/Q_9_output.png">
-</details>
+
 
 ## Q10. Write a query to find Rider average delivery_time.
 <details><summary>
@@ -472,12 +427,7 @@ GROUP BY
 	1;
 
   ```
-</details>
-<details>
-<summary><strong>Expected Output</strong>: Return each Rider ID City, Average time.</summary>
-<br><strong>Query Output</strong>
- <br> <img src="https://github.com/prashanthkumarjoshi/SQL_PROJECT_3/blob/main/images/Q_10_output.png">
-</details>
+
 
 ## Q11. Write a Query to find  Monthly Resturant growth Ratio.
 <details><summary>
@@ -516,12 +466,7 @@ select
 from 
 	monthly_growth_rate
   ```
-</details>
-<details>
-<summary><strong>Expected Output</strong>: Returning Resturant ID, month count of previous month and current month,groth rate.</summary>
-<br><strong>Query Output</strong>
- <br> <img src="https://github.com/prashanthkumarjoshi/SQL_PROJECT_3/blob/main/images/Q_11_output.png">
-</details>
+
 
 ## Q12. Write a Query to generate Customer Segmentation Report.
 <details><summary>
@@ -553,12 +498,7 @@ FROM
 GROUP BY	
 	1;
   ```
-</details>
-<details>
-<summary><strong>Expected Output</strong>: Returning Customer Category,Total Orders,Total Revenue.</summary>
-<br><strong>Query Output</strong>
- <br> <img src="https://github.com/prashanthkumarjoshi/SQL_PROJECT_3/blob/main/images/Q_13_output.png" height="200">
-</details>
+
 
 ## Q13. Write a Query to find the Rider Monthly Earning.
 <details><summary>
@@ -595,12 +535,7 @@ GROUP BY
   WHERE
     RANK <= 5;
   ```
-</details>
-<details>
-<summary><strong>Expected Output</strong>: Returning Rider ID, Month, Total Revenue, Monthly revenue.</summary>
-<br><strong>Query Output</strong>
- <br> <img src="https://github.com/prashanthkumarjoshi/SQL_PROJECT_3/blob/main/images/Q13_output.png">
-</details>
+
 
 ## Q14. Rider Rating Analysis.
 <details><summary>
@@ -660,12 +595,7 @@ ORDER BY
 	1,
 	2
   ```
-</details>
-<details>
-<summary><strong>Expected Output</strong>: Grouping the results by Riders ID,Riders rating,Count of Ratings of each rider.</summary>
-<br><strong>Query Output</strong>
- <br> <img src="https://github.com/prashanthkumarjoshi/SQL_PROJECT_3/blob/main/images/Q_14_output.png">
-</details>
+
 
 ## Q15.  Order Frequency by Day.
 <details><summary>
@@ -693,12 +623,7 @@ FROM( SELECT
 WHERE rank = 1
 
   ```
-</details>
-<details>
-<summary><strong>Expected Output</strong>: Grouping the results by Riders ID,Riders rating,Count of Ratings of each rider.</summary>
-<br><strong>Query Output</strong>
- <br> <img src="https://github.com/prashanthkumarjoshi/SQL_PROJECT_3/blob/main/images/Q_15_output.png">
-</details>
+
 
 ## Q16.  Customer Life Time value
 <details><summary>
@@ -724,12 +649,7 @@ ORDER BY
 
 
   ```
-</details>
-<details>
-<summary><strong>Expected Output</strong>: Grouping the results by Customer ID,Customer Name,Count of orders, CLV.</summary>
-<br><strong>Query Output</strong>
- <br> <img src="https://github.com/prashanthkumarjoshi/SQL_PROJECT_3/blob/main/images/Q_16_output.png">
-</details>
+
 
 ## Q17. Monthly Sales trend
 <details><summary>
@@ -749,12 +669,7 @@ group by
 	2
 
   ```
-</details>
-<details>
-<summary><strong>Expected Output</strong>: Grouping the results by YEAR,MONTH,Sales of current month and previous month.</summary>
-<br><strong>Query Output</strong>
- <br> <img src="https://github.com/prashanthkumarjoshi/SQL_PROJECT_3/blob/main/images/Q_17_output.png">
-</details>
+
 
 ## Q18. Rider Efficieny
 <details><summary>
@@ -792,12 +707,7 @@ FROM
 	2
 
   ```
-</details>
-<details>
-<summary><strong>Expected Output</strong>: Returning minimum and maximum average time.</summary>
-<br><strong>Query Output</strong>
- <br> <img src="https://github.com/prashanthkumarjoshi/SQL_PROJECT_3/blob/main/images/Q_18_output.png">
-</details>
+
 
 ## Q19. Order Item Popularity
 <details><summary>
@@ -829,12 +739,7 @@ ORDER BY
 	2 DESC;
 
   ```
-</details>
-<details>
-<summary><strong>Expected Output</strong>: Grouping the results by Order items,Seasons,total orders.</summary>
-<br><strong>Query Output</strong>
- <br> <img src="https://github.com/prashanthkumarjoshi/SQL_PROJECT_3/blob/main/images/Q_19_output.png">
-</details>
+
 
 ## Q20. Rank each city based on the total revenue for the previous year 2023
 <details><summary>
@@ -853,12 +758,6 @@ GROUP BY
 	1	
 
   ```
-</details>
-<details>
-<summary><strong>Expected Output</strong>: Grouping the results by City, Revenue, Rank.</summary>
-<br><strong>Query Output</strong>
- <br> <img src="https://github.com/prashanthkumarjoshi/SQL_PROJECT_3/blob/main/images/Q_20_output.png">
-</details>
 
 
 ## Project Focus
