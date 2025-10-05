@@ -1,1 +1,0 @@
-# Zomato-SQL-Project-Data-Analysis-for-a-Food-Delivery-Company
