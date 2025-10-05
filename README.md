@@ -4,7 +4,7 @@ Welcome to the GitHub repository for the Zomato SQL Project. This project demons
 <br> <img src="https://github.com/prashanthkumarjoshi/SQL_PROJECT_3/blob/main/images/zomato_Review-1.jpg">
 
 ## Project Overview
-\This project showcases my proficiency in addressing intricate SQL challenges within a business context. The primary objective was to analyze Zomato's customer and order data to uncover valuable insights, resolve business issues, and provide actionable recommendations. The database encompasses detailed information about customers, restaurants, orders, and deliveries.
+This project showcases my proficiency in addressing intricate SQL challenges within a business context. The primary objective was to analyze Zomato's customer and order data to uncover valuable insights, resolve business issues, and provide actionable recommendations. The database encompasses detailed information about customers, restaurants, orders, and deliveries.
 
 ## Entity-Relationship Diagram (ERD)
 The dataset comprises five tables: `Customers`, `Resturants`, `riders`, `Orders`, and `Delivery`. Below is the structure of the ERD that represents the relationships among these tables.
