@@ -8,7 +8,7 @@ This project showcases my proficiency in addressing intricate SQL challenges wit
 
 ## Entity-Relationship Diagram (ERD)
 The dataset comprises five tables: `Customers`, `Resturants`, `riders`, `Orders`, and `Delivery`. Below is the structure of the ERD that represents the relationships among these tables.
-<img width="646" alt="image" src="https://github.com/prashanthkumarjoshi/SQL_PROJECT_3/blob/main/images/ERD.png">
+<img width="646" alt="image" src="https://github.com/vatsalapushkar10/Zomato-SQL-Project-Data-Analysis-for-a-Food-Delivery-Company/blob/main/ERD.png">
 
 
 
